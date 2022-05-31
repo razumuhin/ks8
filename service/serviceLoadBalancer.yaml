@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: frontendlb
+  namespace: serviceuygulamasi
 spec:
   type: LoadBalancer
   selector:
